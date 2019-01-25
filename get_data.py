@@ -26,7 +26,6 @@ def beauti_data(soup):
 
 def count_words(text):
     word_tree = {}
-    print("count")
     for word in text.split():
         if hasattr(word_tree, word):
             word_tree[word] += 1
